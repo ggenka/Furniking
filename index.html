@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Furniking</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
 
+
+    <div class="header__top">
+        <p class="header__welcome">Welcome to our online shop</p>
+        <div class="header__controls">
+            <a href="/login" class="auth-link">Login</a>
+            <span class="auth-separator">/</span>
+            <a href="/signup" class="auth-link">Sign Up</a>
+        </div>
+    </div>
+
+   <header class="header">
+
+       <div class="header__bottom">
+
+           <a href="" class="header__bottom-logo-link">
+               <img class="header__bottom-logo" src="./images/Logo.svg" alt="">
+           </a>
+
+           <form class="search-bar">
+               <div class="search-bar__group">
+
+                   <nav class="dropdown-menu">
+                       <ul class="dropdown-menu__list">
+                           <li class="dropdown-menu__item dropdown-menu__toggle">
+                               <a href="#" class="dropdown-menu__link">Всі категорії ▼</a>
+
+                               <ul class="dropdown-menu__content">
+                                   <li class="dropdown-menu__content-item"><a href="" class="dropdown-menu__content-link">New Arrivals</a></li>
+                                   <li class="dropdown-menu__content-item"><a href="" class="dropdown-menu__content-link">Hot Sale</a></li>
+                                   <li class="dropdown-menu__content-item"><a href="" class="dropdown-menu__content-link">Furniture</a></li>
+                                   <li class="dropdown-menu__content-item"><a href="" class="dropdown-menu__content-link">Table</a></li>
+                               </ul>
+                           </li>
+                       </ul>
+                   </nav>
+
+                   <button type="submit" class="search-bar__button"><img src="./images/search.svg" alt="" class="search-bar__button-img"> </button>
+               </div>
+
+               <input type="text" class="search-bar__input" placeholder="Search products..." />
+           </form>
+
+           <div class="header__icons">
+               <a href="/cart" class="icon icon--cart"> <img src="./images/shop.svg" alt="" class="header__icons-img"> </a>
+               <a href="/account" class="icon icon--user"> <img src="./images/Notification.svg" alt="" class="header__icons-img"> </a>
+               <a href="/notifications" class="icon icon--bell"> <img src="./images/avatar.svg" alt="" class="header__icons-img"> </a>
+           </div>
+       </div>
+   </header>
 
 
 
